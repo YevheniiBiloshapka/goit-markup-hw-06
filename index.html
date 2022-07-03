@@ -326,8 +326,8 @@
 	</div>
 </footer>
 <!-- ! Modal window -->
-<div class="blackdrop is-hidden "data-modal  >
-	<!--  добавить вверх -->
+<div class="blackdrop  "data-modal  >
+	<!-- is-hidden добавить вверх -->
 	<div class="modal">
 		<!-- Close button -->
 		<button id="seven" class="modal-button" data-modal-close>
@@ -342,23 +342,36 @@
 			<!-- name  -->
 			<div class="form__field">
 				<label class="form__label" for="name">Имя</label>
-				<input class="form__input" type="text"  id="name" name="Имя">
+				<input class="form__input" type="text"  id="name" name="Имя" >
+				<span class="form__icon"> <svg width="18" height="18">
+					<use href="./images/sprite.svg#icon-person-black-18dp-1"></use>
+				</svg>
+				
+			</span>
 			</div>
 			<!-- tel -->
 			<div class="form__field">
 				<label class="form__label" for="tel">Телефон</label>
 				<input class="form__input" type="tel" id="tel" name="Телефон">
+				<span class="form__icon"> <svg width="18" height="18">
+					<use href="./images/sprite.svg#icon-phone-black-18dp-1"></use>
+				</svg>
+				</span>
 			</div>
 			<!-- mail -->
 			<div class="form__field">
 				<label class="form__label" for="email">Почта </label>
 				<input class="form__input" type="email" id="email" name="Почта">
+				<span class="form__icon"> <svg width="18" height="18">
+						<use href="./images/sprite.svg#icon-email-black-18dp-1"></use>
+					</svg>
+				</span>
 			</div>
 			
-			<!--textarea -->
+			<!--? textarea -->
 			<div class="form__field">
 				<label class="form__label" for="comment">Комментарий</label>
-				<textarea class="form__input" type="text" rows="10" id="comment" name="Комментарий"></textarea>
+				<textarea class="form__input textarea" type="text" rows="10" id="comment" name="Комментарий" placeholder="Введите коментарий"></textarea>
 			</div>
 			<!--terms -->
 			<div class="form__field form-checkbox">
@@ -367,7 +380,6 @@
 			</div>
 			<!--button -->
 			<button type="submit" class="button">Отправить</button>
-			
 		</form>
 	</div>
 </div>
