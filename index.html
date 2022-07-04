@@ -287,6 +287,7 @@
 	<!-- ! Footer  -->
 <footer class="section background-container ">
 	<div class="container">
+		<!-- address  -->
 		<div class="address">
 			<a class="logo" href="./index.html"><span class="logo-first-words">Web</span><span class="logo-second-word">Studio</span></a>
 			<address>
@@ -298,36 +299,56 @@
 				
 			</address>
 		</div>
+		<!-- social -->
+
 		<div class="connect">
-			<h2 class="title-connect">присоединяйтесь</h2>
+			<h2 class="footer-title">присоединяйтесь</h2>
 			<div class="connect-social">
+						<a class="social-item">
+							<svg width="20" height="20">
+								<use href="./images/sprite.svg#icon-instagram-2"></use>
+							</svg>
+						</a>
 					<a class="social-item">
 						<svg width="20" height="20">
-							<use href="./images/sprite.svg#icon-instagram-2"></use>
+							<use href="./images/sprite.svg#icon-twitter-1"></use>
 						</svg>
 					</a>
-				<a class="social-item">
-					<svg width="20" height="20">
-						<use href="./images/sprite.svg#icon-twitter-1"></use>
-					</svg>
-				</a>
-				<a class="social-item">
-					<svg width="20" height="20">
-						<use href="./images/sprite.svg#icon-facebook-1"></use>
-					</svg>
-				</a>
-				<a class="social-item">
-					<svg width="20" height="20">
-						<use href="./images/sprite.svg#icon-linkedin-1"></use>
-					</svg>
-				</a>
+					<a class="social-item">
+						<svg width="20" height="20">
+							<use href="./images/sprite.svg#icon-facebook-1"></use>
+						</svg>
+					</a>
+					<a class="social-item">
+						<svg width="20" height="20">
+							<use href="./images/sprite.svg#icon-linkedin-1"></use>
+						</svg>
+					</a>
 			</div>
 		</div>
+
+		<!-- fiel mail -->
+		<form class="field__mail">
+			<h2 class="footer-title">Подпишитесь на рассылку</h2>
+
+			<div class="field__mail--box">
+				<input type="email" class="field__mail--input" placeholder="Email">
+				<button type="submit" class="button button-icon">Подписаться 
+					<span class="button__icon">
+						<svg  height="24" width="24">
+							<use href="./images/sprite.svg#icon-icon-send"></use>
+						</svg>
+						</span>
+				</button>
+			</div>
+				
+		</form>
+
+		<!-- end container  -->
 	</div>
 </footer>
 <!-- ! Modal window -->
-<div class="blackdrop  "data-modal  >
-	<!-- is-hidden добавить вверх -->
+<div class="blackdrop is-hidden "data-modal  >
 	<div class="modal">
 		<!-- Close button -->
 		<button id="seven" class="modal-button" data-modal-close>
@@ -368,7 +389,7 @@
 				</span>
 			</div>
 			
-			<!--? textarea -->
+			<!-- textarea -->
 			<div class="form__field">
 				<label class="form__label" for="comment">Комментарий</label>
 				<textarea class="form__input textarea" type="text" rows="10" id="comment" name="Комментарий" placeholder="Введите коментарий"></textarea>
