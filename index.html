@@ -373,11 +373,18 @@
 				<label class="form__label" for="comment">Комментарий</label>
 				<textarea class="form__input textarea" type="text" rows="10" id="comment" name="Комментарий" placeholder="Введите коментарий"></textarea>
 			</div>
-			<!--terms -->
-			<div class="form__field form-checkbox">
-				<input type="checkbox" class="checkbox" id="terms" name="Условия">
-				<p class="chekbox-text">Соглашаюсь с рассылкой и принимаю <a href="#" class="chekbox-link">Условия договора</a></p>
-			</div>
+
+			<!--checkbox -->
+
+			<label class="form__checkbox">
+				<input type="checkbox" class="form__checkbox--checkbox" id="terms" name="Условия">
+				<span class="form__checkbox--icon"></span>
+				<span class="form__checkbox--text">Соглашаюсь с рассылкой и принимаю 
+					<a href="#" class="form__checkbox--text-link"> Условия договора</a>
+				</span>
+			</label>
+
+
 			<!--button -->
 			<button type="submit" class="button">Отправить</button>
 		</form>
