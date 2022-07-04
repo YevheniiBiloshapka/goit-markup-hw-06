@@ -772,6 +772,7 @@ list-style: none;
 .button-icon {
 	display:flex ;
 	padding: 10px 28px;
+	fill: var(--white-color);
 }
 
 
